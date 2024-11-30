@@ -32,7 +32,7 @@ export const functionToHeader = (functions: string): string[] => {
 		console.log(colStack)
 
 		if (colStack.length == 0) {
-			headers.push(temp.trim() + ';');
+			headers.push(temp.trim() + ';\n');
 		}
 	}
 
