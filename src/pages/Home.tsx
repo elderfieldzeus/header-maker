@@ -36,8 +36,8 @@ const Home: React.FC = () => {
 	return (
 		<main className='w-full min-h-screen h-full bg-primary font-code text-xl py-8'>
 			<div className='w-full flex flex-col justify-center items-center text-white gap-2'>
-				<p className='text-5xl font-bold'>C Proto-Maker</p>
-				<p className='text-sm'>Enter all your C function code, and get your function prototypes generated in seconds!</p>
+				<p className='text-4xl md:text-5xl font-bold'>C Proto-Maker</p>
+				<p className='px-10 text-sm text-center'>Enter all your C function code, and get your function prototypes generated in seconds!</p>
 			</div>
 			<form onSubmit={handleConversion}>
 				<div className='flex flex-col h-[75vh] md:flex-row gap-6 px-10 py-6'>
